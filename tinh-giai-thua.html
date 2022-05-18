@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+function giaiThua(a) {
+    if(a ===0){
+        return 1;
+    }
+    return a*giaiThua(a-1);
+}
+let num = +prompt('nhap vao so ')
+document.write('giai thua la : '+ giaiThua(num))
+
+</script>
+</body>
+</html>
